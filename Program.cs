@@ -98,10 +98,15 @@
                     Console.WriteLine("-----------------------------------------------------------");
                 }
                 Console.WriteLine("Dealern har stannat");
+                Console.WriteLine("-----------------------------------------------------------");
             }
 
 
             //Avgör
+            Console.WriteLine("Du har " + sump + " poäng");
+            Console.WriteLine();
+            Console.WriteLine("Dealern har " + sumr + " poäng");
+            Console.WriteLine();
             if(sump > sumr && sump < 22)
             {
                 Console.WriteLine("Du vann");
