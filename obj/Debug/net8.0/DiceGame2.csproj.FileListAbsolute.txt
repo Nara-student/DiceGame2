@@ -1,0 +1,14 @@
+C:\Users\nara.chen\Desktop\Programmering\DiceGame2\DiceGame2\bin\Debug\net8.0\DiceGame2.exe
+C:\Users\nara.chen\Desktop\Programmering\DiceGame2\DiceGame2\bin\Debug\net8.0\DiceGame2.deps.json
+C:\Users\nara.chen\Desktop\Programmering\DiceGame2\DiceGame2\bin\Debug\net8.0\DiceGame2.runtimeconfig.json
+C:\Users\nara.chen\Desktop\Programmering\DiceGame2\DiceGame2\bin\Debug\net8.0\DiceGame2.dll
+C:\Users\nara.chen\Desktop\Programmering\DiceGame2\DiceGame2\bin\Debug\net8.0\DiceGame2.pdb
+C:\Users\nara.chen\Desktop\Programmering\DiceGame2\DiceGame2\obj\Debug\net8.0\DiceGame2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nara.chen\Desktop\Programmering\DiceGame2\DiceGame2\obj\Debug\net8.0\DiceGame2.AssemblyInfoInputs.cache
+C:\Users\nara.chen\Desktop\Programmering\DiceGame2\DiceGame2\obj\Debug\net8.0\DiceGame2.AssemblyInfo.cs
+C:\Users\nara.chen\Desktop\Programmering\DiceGame2\DiceGame2\obj\Debug\net8.0\DiceGame2.csproj.CoreCompileInputs.cache
+C:\Users\nara.chen\Desktop\Programmering\DiceGame2\DiceGame2\obj\Debug\net8.0\DiceGame2.dll
+C:\Users\nara.chen\Desktop\Programmering\DiceGame2\DiceGame2\obj\Debug\net8.0\refint\DiceGame2.dll
+C:\Users\nara.chen\Desktop\Programmering\DiceGame2\DiceGame2\obj\Debug\net8.0\DiceGame2.pdb
+C:\Users\nara.chen\Desktop\Programmering\DiceGame2\DiceGame2\obj\Debug\net8.0\DiceGame2.genruntimeconfig.cache
+C:\Users\nara.chen\Desktop\Programmering\DiceGame2\DiceGame2\obj\Debug\net8.0\ref\DiceGame2.dll
