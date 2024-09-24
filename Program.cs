@@ -38,9 +38,12 @@
                     Console.WriteLine("Dealern har stannat");
                     Console.WriteLine();
                 }
+                else
+                {
+                    answer = Console.ReadLine();
+                    Console.WriteLine("Vill du slå eller stanna?1");
+                }
                 
-                answer = Console.ReadLine();
-                Console.WriteLine("Vill du slå eller stanna?1");
 
                 //player stanna
                 if (answer == "stanna")
