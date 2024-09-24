@@ -32,7 +32,7 @@
                 dice = rand.Next(1, 7);
                 dice2 = rand.Next(1, 7);
 
-                //Dealerns stopp skylt
+                //Dealerns stopp notis
                 if (sumr >= 17)
                 {
                     Console.WriteLine("Dealern har stannat");
