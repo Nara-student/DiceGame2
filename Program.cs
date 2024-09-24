@@ -40,8 +40,8 @@
                 }
                 else
                 {
+                    Console.WriteLine("Vill du slå eller stanna?");
                     answer = Console.ReadLine();
-                    Console.WriteLine("Vill du slå eller stanna?1");
                 }
                 
 
@@ -77,7 +77,7 @@
                 sump += dice;
                 sumr += dice2;
 
-                Console.WriteLine("Du slog " + dice + ", du har " + sump + " Poäng1");
+                Console.WriteLine("Du slog " + dice + ", du har " + sump + " Poäng");
                 Console.WriteLine();
                 Console.WriteLine("Dealerns tur");
                 Console.WriteLine();
@@ -104,23 +104,23 @@
             //Avgör
             if(sump > sumr && sump < 22)
             {
-                Console.WriteLine("Du vann1");
+                Console.WriteLine("Du vann");
             }else if(sump > sumr && sump >= 22)
             {
-                Console.WriteLine("Ditt poäng är högre än 21 du har förlorat2");
+                Console.WriteLine("Ditt poäng är högre än 21 du har förlorat");
             }else if(sump >= 22 && sumr >= 22)
             {
-                Console.WriteLine("Dealern har vunnit3");
+                Console.WriteLine("Dealern har vunnit");
             }else if(sump < sumr && sumr < 22)
             {
-                Console.WriteLine("Dealern har vunnit4");
+                Console.WriteLine("Dealern har vunnit");
             }else if(sumr > 21 && sump < 22)
             {
                 Console.WriteLine("Dealerns poäng är över 21, du vann");
             }
             else
             {
-                Console.WriteLine("Dealern har vunnit5");
+                Console.WriteLine("Dealern har vunnit");
             }
 
         }
