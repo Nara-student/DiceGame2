@@ -14,12 +14,14 @@
             Console.WriteLine();
             Console.WriteLine("Vill du slå eller stanna?");
 
+            
+
             //första slag
             string answer = Console.ReadLine();
             sump += dice;
             sumr += dice2;
 
-            Console.WriteLine("Du slog" + dice + ", du har " + sump + " poäng");
+            Console.WriteLine("Du slog " + dice + ", du har " + sump + " poäng");
             Console.WriteLine();
             Console.WriteLine("Dealern har slått " + dice2 + ", dealern har nu totalt " + sumr + " poäng");
             Console.WriteLine("-----------------------------------------------------------");
@@ -27,11 +29,18 @@
             //Player
             while (answer != "stanna")
             {
-                Console.WriteLine("Vill du slå eller stanna?");
                 dice = rand.Next(1, 7);
                 dice2 = rand.Next(1, 7);
 
+                //Dealerns stopp skylt
+                if (sumr >= 17)
+                {
+                    Console.WriteLine("Dealern har stannat");
+                    Console.WriteLine();
+                }
+                
                 answer = Console.ReadLine();
+                Console.WriteLine("Vill du slå eller stanna?1");
 
                 //player stanna
                 if (answer == "stanna")
@@ -42,8 +51,6 @@
                     //dealer stanna
                 }else if(sumr >= 17)
                 {
-                    Console.WriteLine("Dealern har stannat");
-                    Console.WriteLine();
                     
                     while(answer != "stanna")
                     {
@@ -53,13 +60,14 @@
                         if(answer == "stanna")
                         {
                             Console.WriteLine("Du har totalt " + sump + " poäng");
-                            Console.WriteLine();
+                            Console.WriteLine("-----------------------------------------------------------");
                             break;
                         }
 
                         dice = rand.Next(1, 7);
                         sump += dice;
                         Console.WriteLine("Du slog " + dice + ", du har " + sump + " poäng");
+                        Console.WriteLine("-----------------------------------------------------------");
                     }break;
                 }
 
@@ -75,17 +83,20 @@
             }
 
             //Dealer
-            Console.WriteLine("Dealerns tur");
-            while(sumr <= 17)
+            if(sumr < 17)
             {
-                dice2 = rand.Next(1, 7);
-                sumr += dice2;
+                Console.WriteLine("Dealerns tur");
+                while (sumr <= 17)
+                {
+                    dice2 = rand.Next(1, 7);
+                    sumr += dice2;
 
-                Console.WriteLine("Dealern har slått " + dice2 + ", dealern har nu totalt " + sumr + " poäng");
-                Console.WriteLine();
+                    Console.WriteLine("Dealern har slått " + dice2 + ", dealern har nu totalt " + sumr + " poäng");
+                    Console.WriteLine("-----------------------------------------------------------");
+                }
+                Console.WriteLine("Dealern har stannat");
             }
 
-            Console.WriteLine("Dealern har stannat");
 
             //Avgör
             if(sump > sumr && sump < 22)
